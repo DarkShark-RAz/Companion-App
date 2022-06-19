@@ -35,9 +35,9 @@
         }
       ],
       "api_key": [
-        {
-          "current_key": "" // removed for security reasons
-        }
+       {
+          "current_key": ""
+       }
       ],
       "services": {
         "appinvite_service": {
