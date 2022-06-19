@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "978832874617",
+    "project_id": "companion-app-e8a42",
+    "storage_bucket": "companion-app-e8a42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978832874617:android:393346d2c2f856ff9008a8",
+        "android_client_info": {
+          "package_name": "com.example.companion_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978832874617-45uvqmabhhen1re41rsbnh31to7u8ogh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.companion_app",
+            "certificate_hash": "0778aa412ab269c34461ba47aa3f4affafad14e3"
+          }
+        },
+        {
+          "client_id": "978832874617-8j48qqdmm4c2icffg4nbeedivs7se57b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.companion_app",
+            "certificate_hash": "fd5da38bd092c1d1d1b1967606d3a513e9ff32a6"
+          }
+        },
+        {
+          "client_id": "978832874617-qc05pd2agmofd9d6orv2v3nsbqr016b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "" // removed for security reasons
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978832874617-fknnmnu9cojhbrim22e28eqhvpvftknb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
