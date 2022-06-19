@@ -1,7 +1,13 @@
 import 'package:companion_app/bindings/auth_binding.dart';
+import 'package:companion_app/bindings/home_binding.dart';
 import 'package:companion_app/bindings/login_binding.dart';
+import 'package:companion_app/bindings/main_screen_binding.dart';
 import 'package:companion_app/bindings/onboarding_binding.dart';
+import 'package:companion_app/bindings/profile_binding.dart';
 import 'package:companion_app/bindings/sign_up_binding.dart';
+import 'package:companion_app/bindings/specialist_binding.dart';
+import 'package:companion_app/bindings/survey_binding.dart';
+import 'package:companion_app/bindings/task_list_binding.dart';
 import 'package:companion_app/constants/routes.dart';
 import 'package:companion_app/constants/themes.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -29,8 +35,14 @@ Future<void> loadServices() async {}
 void loadDependencies() {
   AuthBinding().dependencies();
   OnboardingBinding().dependencies();
+  SurveyBinding().dependencies();
+  MainScreenBinding().dependencies();
   SignUpBinding().dependencies();
   LoginBinding().dependencies();
+  HomeBinding().dependencies();
+  TaskListBinding().dependencies();
+  SpecialistBinding().dependencies();
+  ProfileBinding().dependencies();
 }
 
 class MyApp extends StatelessWidget {
