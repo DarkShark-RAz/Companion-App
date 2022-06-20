@@ -6,6 +6,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)
 
+---
+
 <!-- PROJECT LOGO -->
 
 <br />
@@ -38,8 +40,6 @@
 </a>
 </div>
 
----
-
 ## 💡Inspiration
 
 According to the World Health Organization (WHO), last year 14% of India's population suffered from mental health ailments, including 45.7 million suffering from depressive disorders and 49 million from anxiety disorders. Especially in this Covid pandemic, when most of the countries went into lockdown, it is very easy for people to feel alienated, unmotivated, and stressed which when coupled with anxiety, overthinking and irritation have led few to self-harm with some even losing their lives to mental health.
@@ -64,10 +64,11 @@ In this competitive, fast-paced, age of computers, it's very easy for people to 
 
 ## 🎨 UI design
 
-- [Behance Inspiration]()
-- [Figma]()
+- [Inspiration from Behance](https://www.behance.net/gallery/97708289/Poise-Mental-Health-App)
+- [UI Design on Figma](https://www.figma.com/file/H5GR6hwArHUW7beeJ7zrXK/App-UI?node-id=0%3A1)
 
 ## 🚀 User Flowchart
+![User Flow](https://user-images.githubusercontent.com/56643117/174653057-bf626bb5-d461-4080-a0cb-d187be47e9b6.jpg)
 
 ## 🏃‍♂️ Challenges we ran into
 
@@ -98,5 +99,6 @@ We have implemented the project by using flutter, firebase majorly. Various APIs
 ## 📱 App screenshots
 
 ## 🙏 Acknowledgements
+![Mental hacks_slideshow (2)](https://user-images.githubusercontent.com/56643117/174653211-a45b459e-4c00-4735-806e-2a21ff0586ea.png)
 
 ## 📃 Licensing
