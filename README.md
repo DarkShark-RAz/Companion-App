@@ -20,7 +20,7 @@
   <h3 align="center">Companion App</h3>
 
   <p align="center">
-    <a href="https://github.com/DarkShark-RAz/Companion-App"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DarkShark-RAz/Companion-App"><strong>Get the apk »</strong></a>
     <br />
     Your personal companion to help you assess and track your mental health.
     <br />
