@@ -2,8 +2,8 @@
 ![made-with-flutter](https://user-images.githubusercontent.com/56643117/174646071-95e35f2b-f7f9-4702-90c4-1ee17036fb67.svg)
 ![uses-firebase](https://user-images.githubusercontent.com/56643117/174646703-f2ffcad6-f2fd-4915-8421-f300a98ae520.svg)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)
 
 ---
