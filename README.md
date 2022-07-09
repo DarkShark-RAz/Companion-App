@@ -24,7 +24,7 @@
     <br />
     Your personal companion to help you assess and track your mental health.
     <br />
-    <a href="https://youtu.be/sJTZH96O_Ko">View Demo</a>
+    <a href="https://youtu.be/wsUOIpjCZ2k">View Demo</a>
     ·
     <a href="https://github.com/DarkShark-RAz/Companion-App/issues">Report Bug</a>
     ·
