@@ -1,11 +1,10 @@
 import 'package:companion_app/controllers/survey_controller.dart';
-import 'package:companion_app/services/custom_colors.dart';
 import 'package:companion_app/services/size_config.dart';
 import 'package:companion_app/shared/question_screen.dart';
 import 'package:companion_app/shared/rounded_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:intervalprogressbar/intervalprogressbar.dart';
+// import 'package:intervalprogressbar/intervalprogressbar.dart';
 
 class SurveyScreen extends GetView<SurveyController> {
   const SurveyScreen({Key? key}) : super(key: key);
@@ -23,21 +22,21 @@ class SurveyScreen extends GetView<SurveyController> {
         toolbarHeight: SizeConfig.safeVertical! * 0.12,
         flexibleSpace: SafeArea(
           child: Center(
-            child: Obx(
-              () => IntervalProgressBar(
-                direction: IntervalProgressDirection.horizontal,
-                max: 9,
-                progress: controller.progressNum,
-                intervalSize: 5,
-                size: Size(SizeConfig.safeHorizontal! * 0.85,
-                    SizeConfig.safeVertical! * 0.02),
-                highlightColor: Colors.black,
-                defaultColor: CustomColors.appLightGrey,
-                intervalColor: Colors.transparent,
-                intervalHighlightColor: Colors.transparent,
-                radius: 20,
-              ),
-            ),
+            child: Obx(() => CircularProgressIndicator()
+                // IntervalProgressBar(
+                //   direction: IntervalProgressDirection.horizontal,
+                //   max: 9,
+                //   progress: controller.progressNum,
+                //   intervalSize: 5,
+                //   size: Size(SizeConfig.safeHorizontal! * 0.85,
+                //       SizeConfig.safeVertical! * 0.02),
+                //   highlightColor: Colors.black,
+                //   defaultColor: CustomColors.appLightGrey,
+                //   intervalColor: Colors.transparent,
+                //   intervalHighlightColor: Colors.transparent,
+                //   radius: 20,
+                // ),
+                ),
           ),
         ),
       ),

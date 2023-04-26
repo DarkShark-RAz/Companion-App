@@ -1,7 +1,5 @@
-import 'dart:convert';
 import 'package:companion_app/constants/constants.dart';
 import 'package:companion_app/models/video_model.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
