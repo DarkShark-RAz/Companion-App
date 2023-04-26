@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:528396478451:android:6b6add9d6f501ff727d486",
+        "mobilesdk_app_id": "1:528396478451:android:b3a59083b46d102327d486",
         "android_client_info": {
-          "package_name": "com.example.companion_app"
+          "package_name": "com.example.companion_app_nihar_nihar"
         }
       },
       "oauth_client": [
@@ -29,6 +29,13 @@
             {
               "client_id": "528396478451-844pt3h4juiqvgvmcbi4k3kgkv93gfkp.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "528396478451-fn3gqg495of382sf9qp4bkdlvbt5kvbm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.companionApp"
+              }
             }
           ]
         }

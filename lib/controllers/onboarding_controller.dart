@@ -1,5 +1,5 @@
-import 'package:companion_app/services/firebase/firebase_functions.dart';
-import 'package:companion_app/shared/indicator.dart';
+import 'package:companion_app_nihar/services/firebase/firebase_functions.dart';
+import 'package:companion_app_nihar/shared/indicator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

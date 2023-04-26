@@ -1,5 +1,5 @@
-import 'package:companion_app/constants/constants.dart';
-import 'package:companion_app/models/video_model.dart';
+import 'package:companion_app_nihar/constants/constants.dart';
+import 'package:companion_app_nihar/models/video_model.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 

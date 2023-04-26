@@ -1,4 +1,4 @@
-import 'package:companion_app/services/custom_colors.dart';
+import 'package:companion_app_nihar/services/custom_colors.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

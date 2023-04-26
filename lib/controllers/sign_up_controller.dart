@@ -1,7 +1,7 @@
-import 'package:companion_app/controllers/auth_controller.dart';
-import 'package:companion_app/services/firebase/firebase_auth.dart';
-import 'package:companion_app/services/firebase/firebase_functions.dart';
-import 'package:companion_app/shared/indicator.dart';
+import 'package:companion_app_nihar/controllers/auth_controller.dart';
+import 'package:companion_app_nihar/services/firebase/firebase_auth.dart';
+import 'package:companion_app_nihar/services/firebase/firebase_functions.dart';
+import 'package:companion_app_nihar/shared/indicator.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

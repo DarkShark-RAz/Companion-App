@@ -1,4 +1,4 @@
-import 'package:companion_app/models/task_list_model.dart';
+import 'package:companion_app_nihar/models/task_list_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

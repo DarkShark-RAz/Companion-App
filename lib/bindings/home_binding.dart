@@ -1,4 +1,4 @@
-import 'package:companion_app/controllers/home_controller.dart';
+import 'package:companion_app_nihar/controllers/home_controller.dart';
 import 'package:get/get.dart';
 
 class HomeBinding extends Bindings {

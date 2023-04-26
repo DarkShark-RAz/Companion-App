@@ -1,7 +1,7 @@
-import 'package:companion_app/controllers/task_list_controller.dart';
-import 'package:companion_app/models/task_list_model.dart';
-import 'package:companion_app/services/custom_colors.dart';
-import 'package:companion_app/services/size_config.dart';
+import 'package:companion_app_nihar/controllers/task_list_controller.dart';
+import 'package:companion_app_nihar/models/task_list_model.dart';
+import 'package:companion_app_nihar/services/custom_colors.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';

@@ -1,14 +1,14 @@
-import 'package:companion_app/views/onboarding/anonymous.dart';
-import 'package:companion_app/views/onboarding/onboarding.dart';
-import 'package:companion_app/views/onboarding/personal_details.dart';
-import 'package:companion_app/views/onboarding/priorityTask_page.dart';
-import 'package:companion_app/views/welcome/auth_page.dart';
-import 'package:companion_app/views/welcome/email_verify.dart';
-import 'package:companion_app/views/welcome/forgot_password.dart';
-import 'package:companion_app/views/welcome/login.dart';
-import 'package:companion_app/views/welcome/reset_password.dart';
-import 'package:companion_app/views/welcome/signup.dart';
-import 'package:companion_app/views/welcome/welcome_page.dart';
+import 'package:companion_app_nihar/views/onboarding/anonymous.dart';
+import 'package:companion_app_nihar/views/onboarding/onboarding.dart';
+import 'package:companion_app_nihar/views/onboarding/personal_details.dart';
+import 'package:companion_app_nihar/views/onboarding/priorityTask_page.dart';
+import 'package:companion_app_nihar/views/welcome/auth_page.dart';
+import 'package:companion_app_nihar/views/welcome/email_verify.dart';
+import 'package:companion_app_nihar/views/welcome/forgot_password.dart';
+import 'package:companion_app_nihar/views/welcome/login.dart';
+import 'package:companion_app_nihar/views/welcome/reset_password.dart';
+import 'package:companion_app_nihar/views/welcome/signup.dart';
+import 'package:companion_app_nihar/views/welcome/welcome_page.dart';
 import 'package:get/get.dart';
 
 import '../views/main/main_screen.dart';

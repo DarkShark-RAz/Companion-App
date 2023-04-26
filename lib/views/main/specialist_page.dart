@@ -1,8 +1,8 @@
-import 'package:companion_app/constants/constants.dart';
-import 'package:companion_app/controllers/specialist_controller.dart';
-import 'package:companion_app/services/custom_colors.dart';
-import 'package:companion_app/services/size_config.dart';
-import 'package:companion_app/views/main/single_specialist_page.dart';
+import 'package:companion_app_nihar/constants/constants.dart';
+import 'package:companion_app_nihar/controllers/specialist_controller.dart';
+import 'package:companion_app_nihar/services/custom_colors.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
+import 'package:companion_app_nihar/views/main/single_specialist_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
