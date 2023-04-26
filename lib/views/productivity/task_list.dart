@@ -5,7 +5,6 @@ import 'package:companion_app/services/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:get/state_manager.dart';
 
 class TaskList extends GetView<TaskListController> {
   final int? index;

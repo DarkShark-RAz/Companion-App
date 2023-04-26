@@ -11,6 +11,11 @@ import 'package:companion_app/views/welcome/signup.dart';
 import 'package:companion_app/views/welcome/welcome_page.dart';
 import 'package:get/get.dart';
 
+import '../views/main/main_screen.dart';
+import '../views/productivity/task_list.dart';
+import '../views/survey/night_checkin_intro_screen.dart';
+import '../views/survey/night_checkin_screen.dart';
+
 class AppRoutes {
   AppRoutes._(); //this is to prevent anyone from instantiating this object
 
@@ -68,6 +73,26 @@ class AppRoutes {
     GetPage(
         name: '/priority-task',
         page: () => const PriorityTaskPage(),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/main-screen',
+        page: () => MainScreen(),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/task-list',
+        page: () => TaskList(index: 0),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/night-checkin-intro',
+        page: () => NightCheckinIntroScreen(),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/night-checkin',
+        page: () => NightCheckInScreen(),
         transition: Transition.fadeIn,
         transitionDuration: const Duration(milliseconds: 500)),
   ];

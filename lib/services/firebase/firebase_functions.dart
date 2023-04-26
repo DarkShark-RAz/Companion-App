@@ -68,7 +68,7 @@ class FirebaseFunctions {
         .collection('users')
         .doc(_auth.currentUser!.uid)
         .get();
-    Map<String, dynamic> data = snapshot.data()!;
+    Map<String, dynamic> data = snapshot.data() ?? {};
 
     if (data['phone'] != null || data['username'] != null) {
       print('Details Exist!');

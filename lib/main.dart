@@ -15,10 +15,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    name: "test",
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   await loadServices();
   loadDependencies();
   await GetStorage.init();
@@ -51,6 +55,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // FirebaseAuthentication().logOut();
     return GetMaterialApp(
       title: 'Companion App - Mental Health Tracker',
       initialRoute: "/auth",

@@ -14,19 +14,14 @@ class SurveyController extends GetxController {
   set nightProgressNum(value) => this._nightProgressNum.value = value;
 
   final _isCard0Selected = false.obs;
-
   get isCard0Selected => this._isCard0Selected.value;
-
   set isCard0Selected(value) => this._isCard0Selected.value = value;
 
   final _isCard1Selected = false.obs;
-
   get isCard1Selected => this._isCard1Selected.value;
-
   set isCard1Selected(value) => this._isCard1Selected.value = value;
 
   final _isCard2Selected = false.obs;
-
   get isCard2Selected => this._isCard2Selected.value;
 
   set isCard2Selected(value) => this._isCard2Selected.value = value;
