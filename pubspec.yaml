@@ -48,10 +48,7 @@ dependencies:
   intl: ^0.18.0
   url_launcher: ^6.1.0
 
-  # intervalprogressbar:
-  #   git:
-  #     url: https://github.com/CarolusRexus/IntervalProgressBar.git
-  #     ref: master
+  flutter_animation_progress_bar: ^2.3.1
   email_validator: ^2.0.1
   google_sign_in: ^6.1.0
   carousel_slider: ^4.1.1

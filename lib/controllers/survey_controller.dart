@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class SurveyController extends GetxController {
@@ -96,6 +97,15 @@ class SurveyController extends GetxController {
         nightProgressNum += 1;
         turnOffAllSelections();
       }
+    } else {
+      if (!Get.isSnackbarOpen)
+        Get.snackbar(
+          "Error",
+          "Please select an option.",
+          backgroundColor: Colors.red.shade200,
+          duration: Duration(milliseconds: 1750),
+          forwardAnimationCurve: Curves.fastLinearToSlowEaseIn,
+        );
     }
   }
 
