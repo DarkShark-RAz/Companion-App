@@ -1,10 +1,10 @@
-import 'package:companion_app/controllers/main_screen_controller.dart';
-import 'package:companion_app/services/size_config.dart';
-import 'package:companion_app/shared/bottom_bar_widget.dart';
-import 'package:companion_app/views/main/balance_page.dart';
-import 'package:companion_app/views/main/home_page.dart';
-import 'package:companion_app/views/main/profile_page.dart';
-import 'package:companion_app/views/main/specialist_page.dart';
+import 'package:companion_app_nihar/controllers/main_screen_controller.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
+import 'package:companion_app_nihar/shared/bottom_bar_widget.dart';
+import 'package:companion_app_nihar/views/main/balance_page.dart';
+import 'package:companion_app_nihar/views/main/home_page.dart';
+import 'package:companion_app_nihar/views/main/profile_page.dart';
+import 'package:companion_app_nihar/views/main/specialist_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

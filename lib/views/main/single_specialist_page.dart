@@ -1,6 +1,6 @@
-import 'package:companion_app/controllers/specialist_controller.dart';
-import 'package:companion_app/services/custom_colors.dart';
-import 'package:companion_app/services/size_config.dart';
+import 'package:companion_app_nihar/controllers/specialist_controller.dart';
+import 'package:companion_app_nihar/services/custom_colors.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getwidget/getwidget.dart';

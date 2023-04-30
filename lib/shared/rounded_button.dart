@@ -1,4 +1,4 @@
-import 'package:companion_app/services/size_config.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
 import 'package:flutter/material.dart';
 
 class RoundedButton extends StatelessWidget {

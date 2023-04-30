@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:companion_app/shared/indicator.dart';
+import 'package:companion_app_nihar/shared/indicator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 
@@ -68,7 +68,7 @@ class FirebaseFunctions {
         .collection('users')
         .doc(_auth.currentUser!.uid)
         .get();
-    Map<String, dynamic> data = snapshot.data()!;
+    Map<String, dynamic> data = snapshot.data() ?? {};
 
     if (data['phone'] != null || data['username'] != null) {
       print('Details Exist!');

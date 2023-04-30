@@ -1,5 +1,5 @@
-import 'package:companion_app/controllers/auth_controller.dart';
-import 'package:companion_app/controllers/login_controller.dart';
+import 'package:companion_app_nihar/controllers/auth_controller.dart';
+import 'package:companion_app_nihar/controllers/login_controller.dart';
 import 'package:get/get.dart';
 
 class LoginBinding extends Bindings {

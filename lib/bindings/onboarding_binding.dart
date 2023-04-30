@@ -1,4 +1,4 @@
-import 'package:companion_app/controllers/onboarding_controller.dart';
+import 'package:companion_app_nihar/controllers/onboarding_controller.dart';
 import 'package:get/get.dart';
 
 class OnboardingBinding extends Bindings {

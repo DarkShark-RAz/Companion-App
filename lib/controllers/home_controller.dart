@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:companion_app/models/quotes_model.dart';
-import 'package:companion_app/models/video_model.dart';
-import 'package:companion_app/services/api/quotes_api_service.dart';
-import 'package:companion_app/services/api/remote_service.dart';
+import 'package:companion_app_nihar/models/quotes_model.dart';
+import 'package:companion_app_nihar/models/video_model.dart';
+import 'package:companion_app_nihar/services/api/quotes_api_service.dart';
+import 'package:companion_app_nihar/services/api/remote_service.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {

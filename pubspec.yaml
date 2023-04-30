@@ -1,4 +1,4 @@
-name: companion_app
+name: companion_app_nihar
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.16.1 <3.0.0'
+  sdk: '>=2.19.6 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -48,10 +48,7 @@ dependencies:
   intl: ^0.18.0
   url_launcher: ^6.1.0
 
-  # intervalprogressbar:
-  #   git:
-  #     url: https://github.com/CarolusRexus/IntervalProgressBar.git
-  #     ref: master
+  flutter_animation_progress_bar: ^2.3.1
   email_validator: ^2.0.1
   google_sign_in: ^6.1.0
   carousel_slider: ^4.1.1

@@ -1,5 +1,5 @@
-import 'package:companion_app/models/specialist_model.dart';
-import 'package:companion_app/services/api/specialist_api_service.dart';
+import 'package:companion_app_nihar/models/specialist_model.dart';
+import 'package:companion_app_nihar/services/api/specialist_api_service.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';

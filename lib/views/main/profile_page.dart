@@ -1,6 +1,6 @@
-import 'package:companion_app/controllers/profile_controller.dart';
-import 'package:companion_app/controllers/sign_up_controller.dart';
-import 'package:companion_app/services/size_config.dart';
+import 'package:companion_app_nihar/controllers/profile_controller.dart';
+import 'package:companion_app_nihar/controllers/sign_up_controller.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

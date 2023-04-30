@@ -1,4 +1,4 @@
-import 'package:companion_app/models/quotes_model.dart';
+import 'package:companion_app_nihar/models/quotes_model.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 

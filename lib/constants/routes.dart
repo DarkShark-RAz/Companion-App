@@ -1,15 +1,20 @@
-import 'package:companion_app/views/onboarding/anonymous.dart';
-import 'package:companion_app/views/onboarding/onboarding.dart';
-import 'package:companion_app/views/onboarding/personal_details.dart';
-import 'package:companion_app/views/onboarding/priorityTask_page.dart';
-import 'package:companion_app/views/welcome/auth_page.dart';
-import 'package:companion_app/views/welcome/email_verify.dart';
-import 'package:companion_app/views/welcome/forgot_password.dart';
-import 'package:companion_app/views/welcome/login.dart';
-import 'package:companion_app/views/welcome/reset_password.dart';
-import 'package:companion_app/views/welcome/signup.dart';
-import 'package:companion_app/views/welcome/welcome_page.dart';
+import 'package:companion_app_nihar/views/onboarding/anonymous.dart';
+import 'package:companion_app_nihar/views/onboarding/onboarding.dart';
+import 'package:companion_app_nihar/views/onboarding/personal_details.dart';
+import 'package:companion_app_nihar/views/onboarding/priorityTask_page.dart';
+import 'package:companion_app_nihar/views/welcome/auth_page.dart';
+import 'package:companion_app_nihar/views/welcome/email_verify.dart';
+import 'package:companion_app_nihar/views/welcome/forgot_password.dart';
+import 'package:companion_app_nihar/views/welcome/login.dart';
+import 'package:companion_app_nihar/views/welcome/reset_password.dart';
+import 'package:companion_app_nihar/views/welcome/signup.dart';
+import 'package:companion_app_nihar/views/welcome/welcome_page.dart';
 import 'package:get/get.dart';
+
+import '../views/main/main_screen.dart';
+import '../views/productivity/task_list.dart';
+import '../views/survey/night_checkin_intro_screen.dart';
+import '../views/survey/night_checkin_screen.dart';
 
 class AppRoutes {
   AppRoutes._(); //this is to prevent anyone from instantiating this object
@@ -68,6 +73,26 @@ class AppRoutes {
     GetPage(
         name: '/priority-task',
         page: () => const PriorityTaskPage(),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/main-screen',
+        page: () => MainScreen(),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/task-list',
+        page: () => TaskList(index: 0),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/night-checkin-intro',
+        page: () => NightCheckinIntroScreen(),
+        transition: Transition.fadeIn,
+        transitionDuration: const Duration(milliseconds: 500)),
+    GetPage(
+        name: '/night-checkin',
+        page: () => NightCheckInScreen(),
         transition: Transition.fadeIn,
         transitionDuration: const Duration(milliseconds: 500)),
   ];
