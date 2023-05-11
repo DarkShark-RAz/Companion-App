@@ -23,19 +23,7 @@ class SurveyScreen extends GetView<SurveyController> {
         flexibleSpace: SafeArea(
           child: Center(
             child: Obx(() => CircularProgressIndicator()
-                // IntervalProgressBar(
-                //   direction: IntervalProgressDirection.horizontal,
-                //   max: 9,
-                //   progress: controller.progressNum,
-                //   intervalSize: 5,
-                //   size: Size(SizeConfig.safeHorizontal! * 0.85,
-                //       SizeConfig.safeVertical! * 0.02),
-                //   highlightColor: Colors.black,
-                //   defaultColor: CustomColors.appLightGrey,
-                //   intervalColor: Colors.transparent,
-                //   intervalHighlightColor: Colors.transparent,
-                //   radius: 20,
-                // ),
+                
                 ),
           ),
         ),
