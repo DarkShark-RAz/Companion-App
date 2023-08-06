@@ -1,4 +1,4 @@
-import 'package:companion_app/services/lifecycle_handler.dart';
+import 'package:companion_app_nihar/services/lifecycle_handler.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

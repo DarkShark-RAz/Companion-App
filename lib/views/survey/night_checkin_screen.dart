@@ -1,12 +1,12 @@
-import 'package:companion_app/controllers/survey_controller.dart';
-import 'package:companion_app/services/custom_colors.dart';
-import 'package:companion_app/services/size_config.dart';
-import 'package:companion_app/shared/rounded_button.dart';
+import 'package:companion_app_nihar/controllers/survey_controller.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
+import 'package:companion_app_nihar/shared/rounded_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:intervalprogressbar/intervalprogressbar.dart';
+import 'package:flutter_animation_progress_bar/flutter_animation_progress_bar.dart';
 
+import '../../services/custom_colors.dart';
 import '../../shared/question_screen.dart';
 
 class NightCheckInScreen extends GetView<SurveyController> {
@@ -26,18 +26,18 @@ class NightCheckInScreen extends GetView<SurveyController> {
         flexibleSpace: SafeArea(
           child: Center(
             child: Obx(
-              () => IntervalProgressBar(
-                direction: IntervalProgressDirection.horizontal,
-                max: 6,
-                progress: controller.nightProgressNum,
-                intervalSize: 5,
-                size: Size(SizeConfig.safeHorizontal! * 0.8,
-                    SizeConfig.safeVertical! * 0.02),
-                highlightColor: Colors.black,
-                defaultColor: CustomColors.appLightGrey,
-                intervalColor: Colors.transparent,
-                intervalHighlightColor: Colors.transparent,
-                radius: 20,
+              () => SizedBox(
+                width: SizeConfig.safeHorizontal! * 0.8,
+                height: SizeConfig.safeVertical! * 0.025,
+                child: FAProgressBar(
+                  direction: Axis.horizontal,
+                  maxValue: 6,
+                  currentValue:
+                      double.parse(controller.nightProgressNum.toString()),
+                  progressColor: Colors.black,
+                  backgroundColor: CustomColors.appLightGrey,
+                  borderRadius: BorderRadius.circular(20),
+                ),
               ),
             ),
           ),
@@ -78,10 +78,9 @@ class NightCheckInScreen extends GetView<SurveyController> {
             ),
             Spacer(),
             RoundedButton(
-              bgColor: Colors.black,
-              text: 'submit',
-              onClicked: () => controller.updateNightProgressNumber(),
-            ),
+                bgColor: Colors.black,
+                text: 'submit',
+                onClicked: () => controller.updateNightProgressNumber()),
             SizedBox(
               height: SizeConfig.safeVertical! * 0.05,
             )

@@ -1,5 +1,5 @@
-import 'package:companion_app/services/custom_colors.dart';
-import 'package:companion_app/services/size_config.dart';
+import 'package:companion_app_nihar/services/custom_colors.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

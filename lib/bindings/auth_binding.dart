@@ -1,4 +1,4 @@
-import 'package:companion_app/controllers/auth_controller.dart';
+import 'package:companion_app_nihar/controllers/auth_controller.dart';
 import 'package:get/get.dart';
 
 class AuthBinding extends Bindings {

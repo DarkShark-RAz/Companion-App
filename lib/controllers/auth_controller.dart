@@ -1,5 +1,5 @@
-import 'package:companion_app/controllers/sign_up_controller.dart';
-import 'package:companion_app/services/firebase/firebase_functions.dart';
+import 'package:companion_app_nihar/controllers/sign_up_controller.dart';
+import 'package:companion_app_nihar/services/firebase/firebase_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

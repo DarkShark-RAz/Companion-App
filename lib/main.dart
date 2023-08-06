@@ -1,24 +1,27 @@
-import 'package:companion_app/bindings/auth_binding.dart';
-import 'package:companion_app/bindings/home_binding.dart';
-import 'package:companion_app/bindings/login_binding.dart';
-import 'package:companion_app/bindings/main_screen_binding.dart';
-import 'package:companion_app/bindings/onboarding_binding.dart';
-import 'package:companion_app/bindings/profile_binding.dart';
-import 'package:companion_app/bindings/sign_up_binding.dart';
-import 'package:companion_app/bindings/specialist_binding.dart';
-import 'package:companion_app/bindings/survey_binding.dart';
-import 'package:companion_app/bindings/task_list_binding.dart';
-import 'package:companion_app/constants/routes.dart';
-import 'package:companion_app/constants/themes.dart';
+import 'package:companion_app_nihar/bindings/auth_binding.dart';
+import 'package:companion_app_nihar/bindings/home_binding.dart';
+import 'package:companion_app_nihar/bindings/login_binding.dart';
+import 'package:companion_app_nihar/bindings/main_screen_binding.dart';
+import 'package:companion_app_nihar/bindings/onboarding_binding.dart';
+import 'package:companion_app_nihar/bindings/profile_binding.dart';
+import 'package:companion_app_nihar/bindings/sign_up_binding.dart';
+import 'package:companion_app_nihar/bindings/specialist_binding.dart';
+import 'package:companion_app_nihar/bindings/survey_binding.dart';
+import 'package:companion_app_nihar/bindings/task_list_binding.dart';
+import 'package:companion_app_nihar/constants/routes.dart';
+import 'package:companion_app_nihar/constants/themes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   await loadServices();
   loadDependencies();
   await GetStorage.init();
@@ -51,6 +54,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // FirebaseAuthentication().logOut();
     return GetMaterialApp(
       title: 'Companion App - Mental Health Tracker',
       initialRoute: "/auth",

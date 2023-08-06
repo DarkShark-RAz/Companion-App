@@ -1,7 +1,7 @@
-import 'package:companion_app/constants/constants.dart';
-import 'package:companion_app/services/size_config.dart';
-import 'package:companion_app/shared/rich_text.dart';
-import 'package:companion_app/shared/rounded_button.dart';
+import 'package:companion_app_nihar/constants/constants.dart';
+import 'package:companion_app_nihar/services/size_config.dart';
+import 'package:companion_app_nihar/shared/rich_text.dart';
+import 'package:companion_app_nihar/shared/rounded_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';

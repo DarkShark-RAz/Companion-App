@@ -1,4 +1,4 @@
-name: companion_app
+name: companion_app_nihar
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.16.1 <3.0.0'
+  sdk: '>=2.19.6 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -38,32 +38,29 @@ dependencies:
   get: ^4.6.3
   get_storage: ^2.0.3
 
-  firebase_core: ^1.14.1
-  firebase_auth: ^3.3.14
-  cloud_firestore: ^3.1.12
-  firebase_storage: ^10.2.12
-  flutter_svg: ^1.0.3
+  firebase_core: ^2.9.0
+  firebase_auth: ^4.2.2
+  cloud_firestore: ^4.5.1
+  firebase_storage: ^11.1.0
+  flutter_svg: ^2.0.5
   intl_phone_field: ^3.1.0
   sliding_switch: ^1.0.0
-  intl: ^0.17.0
+  intl: ^0.18.0
   url_launcher: ^6.1.0
 
-  intervalprogressbar:
-    git:
-      url: https://github.com/CarolusRexus/IntervalProgressBar.git
-      ref: master
+  flutter_animation_progress_bar: ^2.3.1
   email_validator: ^2.0.1
-  google_sign_in: ^5.3.1
+  google_sign_in: ^6.1.0
   carousel_slider: ^4.1.1
-  geolocator: ^8.2.1
+  geolocator: ^9.0.2
   http: ^0.13.4
-  getwidget: ^2.0.5
+  getwidget: ^3.1.1
   geocoding: ^2.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.9.2
+  flutter_launcher_icons: ^0.13.0
 
 flutter_icons:
   image_path: 'assets/logoIcon.png'
